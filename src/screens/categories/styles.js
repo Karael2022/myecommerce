@@ -6,4 +6,9 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+    title: {
+        fontFamily: 'OpenSans-Bold',
+        fontSize: 30,
+    },
+  
 }); 
