@@ -6,7 +6,7 @@ import { styles } from '../screens/categories/styles';
 const AppNavigator = () => {
   return (
     <NavigationContainer >
-      <ShopNavigator style={styles.container}/>
+      <ShopNavigator />
     </NavigationContainer>
   );
 };
