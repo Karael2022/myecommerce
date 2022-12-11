@@ -11,6 +11,6 @@ export const styles = StyleSheet.create({
     title: {
       fontFamily: 'OpenSans-Bold',
       fontSize: 20,
-      color: COLORS.text,
+      color: '#303841',
     },
   });

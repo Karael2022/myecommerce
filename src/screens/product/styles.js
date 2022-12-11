@@ -1,5 +1,4 @@
-import { COLORS, colors } from '../../constants/themes/colors';
-
+import { COLORS } from '../../constants/themes/colors';
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
@@ -13,7 +12,7 @@ export const styles = StyleSheet.create({
 title: {
     fontFamily: 'OpenSans-Bold',
     fontSize: 30,
-    color: COLORS.textLight,
+    color: '#c4edde',
 },
 
 }); 

@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
   },
   contentContainer: {
     flex: 1,
-    borderRadius: 10,
+    borderRadius: 15,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
@@ -27,6 +27,6 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontFamily: 'NotoSerif-Bold',
-    color: COLORS.text,
+    color: 'ffffff',
   },
 });
