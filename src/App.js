@@ -1,8 +1,9 @@
 import { ActivityIndicator, StyleSheet, View } from 'react-native';
-import { Categories, Product, Products } from './screens';
 
 import AppNavigator from './navigation';
+import { Provider } from 'react-redux';
 import React from 'react';
+import store from './store';
 import { useFonts } from 'expo-font';
 
 export default function App() {
@@ -17,12 +18,16 @@ export default function App() {
 
   if (!loaded) {
     return (
-      <View style = {styles.container}>
-        <ActivityIndicator color = '#30475e'size='large' />
+      <View styles={styles.container}>
+        <ActivityIndicator color="#DAC4F7" size="large" />
       </View>
     );
   }
-  return <AppNavigator />;
+  return (
+    <Provider store={store}>
+      <AppNavigator />
+    </Provider>
+  );
 }
 
 const styles = StyleSheet.create({
